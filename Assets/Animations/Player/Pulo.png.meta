@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4f1c903cec6f9aa43a45703f1d47045c
+guid: df31e9565019b8642ad289dabb55cc53
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 20
+  spritePixelsToUnits: 25
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -93,13 +93,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Pulo_0
+      name: Adventure_Character_Simple Pulo_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 22
+        x: 2
+        y: 21
         width: 13
-        height: 18
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -107,14 +107,77 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 442eed93ae42c984bb1e7bcf3948f350
-      internalID: 1176364682
+      spriteID: f8a8dce74447fc0409d51d392b4f9338
+      internalID: 1085900669
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pulo_1
+      name: Adventure_Character_Simple Pulo_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 23
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf64f1321a5fce4d81f78e6fd00c7ee
+      internalID: 2058168144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventure_Character_Simple Pulo_2
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 23
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e61d1a605835a40ad4bad3c40bd8d9
+      internalID: -399571532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventure_Character_Simple Pulo_3
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 23
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 864a6735744d6c844af5c5ad079042b5
+      internalID: 2129939531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventure_Character_Simple Pulo_4
       rect:
         serializedVersion: 2
         x: 66
@@ -128,18 +191,60 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae5aa74dd550d5c4aa852dcd8fe6b8d9
-      internalID: 466359741
+      spriteID: 2c460e901eed19640bdeb8bdb16d2fff
+      internalID: -575042792
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pulo_2
+      name: Adventure_Character_Simple Pulo_5
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 23
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0762dcc6a5074d54181f1467711d75db
+      internalID: -432181104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventure_Character_Simple Pulo_6
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 23
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2c719fbc5c43c44a986b71242fac66
+      internalID: 610671925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventure_Character_Simple Pulo_7
       rect:
         serializedVersion: 2
         x: 114
-        y: 23
+        y: 21
         width: 13
         height: 19
       alignment: 0
@@ -149,71 +254,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04aaafdd6a0d0e14f8073f0bbf1fcf35
-      internalID: -1015331370
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pulo_3
-      rect:
-        serializedVersion: 2
-        x: 162
-        y: 23
-        width: 13
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b04c7f375ebdd3641b3365e1d2f6cf07
-      internalID: -344668006
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pulo_4
-      rect:
-        serializedVersion: 2
-        x: 210
-        y: 23
-        width: 13
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5e61109d0048f1f4b93d1ffe9a51915a
-      internalID: 981827735
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pulo_5
-      rect:
-        serializedVersion: 2
-        x: 254
-        y: 24
-        width: 13
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a908d90145bac09418881daf109491d5
-      internalID: 809188226
+      spriteID: 73b8f14c231b2b549a9767fee9b6463e
+      internalID: -904239102
       vertices: []
       indices: 
       edges: []
@@ -229,12 +271,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Pulo_0: 1176364682
-      Pulo_1: 466359741
-      Pulo_2: -1015331370
-      Pulo_3: -344668006
-      Pulo_4: 981827735
-      Pulo_5: 809188226
+      Adventure_Character_Simple Pulo_0: 1085900669
+      Adventure_Character_Simple Pulo_1: 2058168144
+      Adventure_Character_Simple Pulo_2: -399571532
+      Adventure_Character_Simple Pulo_3: 2129939531
+      Adventure_Character_Simple Pulo_4: -575042792
+      Adventure_Character_Simple Pulo_5: -432181104
+      Adventure_Character_Simple Pulo_6: 610671925
+      Adventure_Character_Simple Pulo_7: -904239102
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

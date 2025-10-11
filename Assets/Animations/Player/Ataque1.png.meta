@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 39495d82f4d68094d8f834df097be396
+guid: b859d3bcd07fdf2458b97ee1c60d5bd5
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 20
+  spritePixelsToUnits: 25
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -93,13 +93,55 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Andando_0
+      name: Adventure_Character_Simple Ataque1_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 10
+        x: 0
+        y: 17
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee1d13e4a0c65d45be1af764d85ada0
+      internalID: -761469415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventure_Character_Simple Ataque1_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 17
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d2cbde2acf1b14285ad661c1d8cb23
+      internalID: 1588231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventure_Character_Simple Ataque1_2
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 17
         width: 13
-        height: 18
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -107,20 +149,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a605db408a3e1254da7da5646b83041e
-      internalID: 515404053
+      spriteID: a56b463a679fa984995cda76e40c6a62
+      internalID: -10495897
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Andando_1
+      name: Adventure_Character_Simple Ataque1_3
       rect:
         serializedVersion: 2
-        x: 65
-        y: 10
-        width: 14
-        height: 18
+        x: 50
+        y: 17
+        width: 13
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,41 +170,83 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dcecc460bd2f34b46a4ef2492449c4d6
-      internalID: 1241103998
+      spriteID: 18e1290ff1fcaf947b835124807d976e
+      internalID: 752006961
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Andando_2
+      name: Adventure_Character_Simple Ataque1_4
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 17
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04244f7f17e2c7429729a30d197fa3d
+      internalID: -1920765268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventure_Character_Simple Ataque1_5
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 17
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e776ea91a4ceac4da3849697109813c
+      internalID: -1564389105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventure_Character_Simple Ataque1_6
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 17
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c6bb5642ae53f4bb62580c4bd49950
+      internalID: 677400259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adventure_Character_Simple Ataque1_7
       rect:
         serializedVersion: 2
         x: 113
-        y: 10
-        width: 14
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aca9afe68f2a0ad4d90b6f02321c9e08
-      internalID: -774671744
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Andando_3
-      rect:
-        serializedVersion: 2
-        x: 161
-        y: 10
+        y: 17
         width: 13
-        height: 18
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,50 +254,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43b1a4100f8fdc04f8a4f4590a34e89e
-      internalID: 1958442607
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Andando_4
-      rect:
-        serializedVersion: 2
-        x: 209
-        y: 10
-        width: 13
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8f8e78405f1e5b844af0166078294242
-      internalID: 1911102414
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Andando_5
-      rect:
-        serializedVersion: 2
-        x: 257
-        y: 10
-        width: 13
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d3c44fa36ea8ab54eb6aaacdc01a0304
-      internalID: 1259061349
+      spriteID: 6c2f6ae84b412fb47882a942c0383858
+      internalID: 208844797
       vertices: []
       indices: 
       edges: []
@@ -229,12 +271,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Andando_0: 515404053
-      Andando_1: 1241103998
-      Andando_2: -774671744
-      Andando_3: 1958442607
-      Andando_4: 1911102414
-      Andando_5: 1259061349
+      Adventure_Character_Simple Ataque1_0: -761469415
+      Adventure_Character_Simple Ataque1_1: 1588231
+      Adventure_Character_Simple Ataque1_2: -10495897
+      Adventure_Character_Simple Ataque1_3: 752006961
+      Adventure_Character_Simple Ataque1_4: -1920765268
+      Adventure_Character_Simple Ataque1_5: -1564389105
+      Adventure_Character_Simple Ataque1_6: 677400259
+      Adventure_Character_Simple Ataque1_7: 208844797
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
