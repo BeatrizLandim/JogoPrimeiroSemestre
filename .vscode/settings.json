@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Arquivo-da-Unity-main.sln"
+    "dotnet.defaultSolution": "JogoPrimeiroSemestre.sln"
 }
