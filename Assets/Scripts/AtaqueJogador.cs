@@ -1,18 +1,14 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class AtaqueJogador : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] int danoJogador = 10;
+    void OnTriggerEnter2D(Collider2D other)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (other.gameObject.CompareTag("Inimigo"))
+        {
+            SistemaDeVidaInimigo sistemaDeVidaInimigo = other.gameObject.GetComponent<SistemaDeVidaInimigo>();
+            sistemaDeVidaInimigo.AplicarDano(danoJogador);
+        }
     }
 }
