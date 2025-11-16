@@ -61,16 +61,12 @@ public class PlayerMovement : MonoBehaviour
         MirrorSprite(moveInput);
     }
 
-    private void MirrorSprite(float moveInput)
+   private void MirrorSprite(float moveInput)
     {
-        if (moveInput < 0)
-        {
-            spriteRenderer.flipX = true;
-        }
-        else
-        {
+        if (moveInput > 0)
             spriteRenderer.flipX = false;
-        }
+        else if (moveInput < 0)
+            spriteRenderer.flipX = true;
     }
 
     // Verifica se o jogador está no chão (não é a melhor forma de fazer isso)
@@ -89,4 +85,6 @@ public class PlayerMovement : MonoBehaviour
             isGrounded = false;
         }
     }
+    
+
 }

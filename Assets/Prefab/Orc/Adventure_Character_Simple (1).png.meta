@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 962513bace7134a49a36cb562bae1bd8
+guid: 97d4a7d10c3501042a4e30b600178170
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 30
+  spritePixelsToUnits: 10
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -93,148 +93,148 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Adventure_Character_Simple Andando1_0
+      name: Adventure_Character_Simple (1)_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 9
-        width: 13
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 15
+        y: 15
+        width: 39
+        height: 20
+      alignment: 9
+      pivot: {x: 0.17, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2fe8a977cf36b8d4baef9fabf6b7280b
-      internalID: 649463422
+      spriteID: b208af4958265f547a15d98d2e6d8a01
+      internalID: 1509943459
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Adventure_Character_Simple Andando1_1
+      name: Adventure_Character_Simple (1)_2
       rect:
         serializedVersion: 2
-        x: 17
-        y: 9
-        width: 14
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 66
+        y: 16
+        width: 38
+        height: 20
+      alignment: 9
+      pivot: {x: 0.12, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22bbc8287c96ea44d894c57408eff428
-      internalID: -1394136380
+      spriteID: f4187a8c64bf3a543b4f8a21937626da
+      internalID: -559176269
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Adventure_Character_Simple Andando1_2
+      name: Adventure_Character_Simple (1)_4
       rect:
         serializedVersion: 2
-        x: 33
-        y: 9
-        width: 14
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 114
+        y: 16
+        width: 35
+        height: 20
+      alignment: 9
+      pivot: {x: 0.16, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71194a7bcc487054293057cbfe3e4f9c
-      internalID: -1211978630
+      spriteID: 23c9ddc42ac7b9542bef01018a7dd42c
+      internalID: 1907800794
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Adventure_Character_Simple Andando1_3
+      name: Adventure_Character_Simple (1)_6
       rect:
         serializedVersion: 2
-        x: 49
-        y: 9
-        width: 13
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 162
+        y: 16
+        width: 34
+        height: 20
+      alignment: 9
+      pivot: {x: 0.16, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a81b6d8e316c7c4ea8d3362200fb910
-      internalID: 506893965
+      spriteID: fe7e49e0075f88c41b0dd8ef729ea7ca
+      internalID: 341777385
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Adventure_Character_Simple Andando1_4
+      name: Adventure_Character_Simple (1)_8
       rect:
         serializedVersion: 2
-        x: 65
-        y: 9
-        width: 13
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 209
+        y: 16
+        width: 36
+        height: 20
+      alignment: 9
+      pivot: {x: 0.15, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fbcabbd3abd9d2841bbf4463542d2ce7
-      internalID: -1595728975
+      spriteID: 07654c95141822244867e8691fd9126e
+      internalID: 594507924
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Adventure_Character_Simple Andando1_5
+      name: Adventure_Character_Simple (1)_9
       rect:
         serializedVersion: 2
-        x: 81
-        y: 9
-        width: 13
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 16
+        width: 37
+        height: 20
+      alignment: 9
+      pivot: {x: 0.14, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10adfafd6a846c24d904711f37a17eb0
-      internalID: 1156407545
+      spriteID: c39486034207ae84eb202aef292e6efe
+      internalID: 772435628
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Adventure_Character_Simple Andando1_6
+      name: Adventure_Character_Simple (1)_10
       rect:
         serializedVersion: 2
-        x: 97
-        y: 9
-        width: 13
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 305
+        y: 16
+        width: 36
+        height: 20
+      alignment: 9
+      pivot: {x: 0.14, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26daac9fa0d714146811ae2aac4b6192
-      internalID: 1297502964
+      spriteID: a81165844eefc6b4e9a2613425a90a68
+      internalID: 1225695010
       vertices: []
       indices: 
       edges: []
@@ -250,13 +250,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Adventure_Character_Simple Andando1_0: 649463422
-      Adventure_Character_Simple Andando1_1: -1394136380
-      Adventure_Character_Simple Andando1_2: -1211978630
-      Adventure_Character_Simple Andando1_3: 506893965
-      Adventure_Character_Simple Andando1_4: -1595728975
-      Adventure_Character_Simple Andando1_5: 1156407545
-      Adventure_Character_Simple Andando1_6: 1297502964
+      Adventure_Character_Simple (1)_0: 1509943459
+      Adventure_Character_Simple (1)_1: 1178469392
+      Adventure_Character_Simple (1)_10: 1225695010
+      Adventure_Character_Simple (1)_2: -559176269
+      Adventure_Character_Simple (1)_3: -714664775
+      Adventure_Character_Simple (1)_4: 1907800794
+      Adventure_Character_Simple (1)_5: -1474199744
+      Adventure_Character_Simple (1)_6: 341777385
+      Adventure_Character_Simple (1)_7: 550358406
+      Adventure_Character_Simple (1)_8: 594507924
+      Adventure_Character_Simple (1)_9: 772435628
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

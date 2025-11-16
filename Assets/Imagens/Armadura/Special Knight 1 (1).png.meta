@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 962513bace7134a49a36cb562bae1bd8
+guid: e7afaf30064a7294d8986d07f200e9ce
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 30
+  spritePixelsToUnits: 10
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -93,13 +93,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Adventure_Character_Simple Andando1_0
+      name: Special Knight 1 (1)_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 9
-        width: 13
-        height: 19
+        x: 4
+        y: 66
+        width: 8
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -107,20 +107,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2fe8a977cf36b8d4baef9fabf6b7280b
-      internalID: 649463422
+      spriteID: b69cd524924822f4abd1ca2774e94a8e
+      internalID: -1869826717
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Adventure_Character_Simple Andando1_1
+      name: Special Knight 1 (1)_1
       rect:
         serializedVersion: 2
-        x: 17
-        y: 9
-        width: 14
-        height: 19
+        x: 18
+        y: 69
+        width: 11
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,19 +128,61 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22bbc8287c96ea44d894c57408eff428
-      internalID: -1394136380
+      spriteID: e6df3a135086ef54eb6c0708f4756978
+      internalID: 825041530
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Adventure_Character_Simple Andando1_2
+      name: Special Knight 1 (1)_2
       rect:
         serializedVersion: 2
-        x: 33
-        y: 9
-        width: 14
+        x: 34
+        y: 68
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e01cb145ea56b4a880e66a393cfa86
+      internalID: 1260878633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Special Knight 1 (1)_3
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 73
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf02e5471a2d1674eb9e521aa189ed5e
+      internalID: -463587375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Special Knight 1 (1)_4
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 36
+        width: 12
         height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -149,61 +191,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71194a7bcc487054293057cbfe3e4f9c
-      internalID: -1211978630
+      spriteID: f4ac08a9b25c7bc41bddf00403228bc6
+      internalID: 1362435669
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Adventure_Character_Simple Andando1_3
+      name: Special Knight 1 (1)_5
       rect:
         serializedVersion: 2
-        x: 49
-        y: 9
-        width: 13
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3a81b6d8e316c7c4ea8d3362200fb910
-      internalID: 506893965
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Adventure_Character_Simple Andando1_4
-      rect:
-        serializedVersion: 2
-        x: 65
-        y: 9
-        width: 13
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fbcabbd3abd9d2841bbf4463542d2ce7
-      internalID: -1595728975
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Adventure_Character_Simple Andando1_5
-      rect:
-        serializedVersion: 2
-        x: 81
-        y: 9
-        width: 13
+        x: 18
+        y: 36
+        width: 12
         height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -212,19 +212,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10adfafd6a846c24d904711f37a17eb0
-      internalID: 1156407545
+      spriteID: 0a20b960fc2919b49964b944a8eae56b
+      internalID: -1773677704
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Adventure_Character_Simple Andando1_6
+      name: Special Knight 1 (1)_6
       rect:
         serializedVersion: 2
-        x: 97
-        y: 9
-        width: 13
+        x: 34
+        y: 36
+        width: 12
         height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -233,8 +233,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26daac9fa0d714146811ae2aac4b6192
-      internalID: 1297502964
+      spriteID: 3525d8412488d6440ac71cafa391f3be
+      internalID: 114338727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Special Knight 1 (1)_7
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 36
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4312ca3b9f55eb46bb4d58c62230b06
+      internalID: 503525487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Special Knight 1 (1)_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 6
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a985dadee5c5543478649c9981d91fb2
+      internalID: 944112711
       vertices: []
       indices: 
       edges: []
@@ -250,13 +292,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Adventure_Character_Simple Andando1_0: 649463422
-      Adventure_Character_Simple Andando1_1: -1394136380
-      Adventure_Character_Simple Andando1_2: -1211978630
-      Adventure_Character_Simple Andando1_3: 506893965
-      Adventure_Character_Simple Andando1_4: -1595728975
-      Adventure_Character_Simple Andando1_5: 1156407545
-      Adventure_Character_Simple Andando1_6: 1297502964
+      Special Knight 1 (1)_0: -1869826717
+      Special Knight 1 (1)_1: 825041530
+      Special Knight 1 (1)_2: 1260878633
+      Special Knight 1 (1)_3: -463587375
+      Special Knight 1 (1)_4: 1362435669
+      Special Knight 1 (1)_5: -1773677704
+      Special Knight 1 (1)_6: 114338727
+      Special Knight 1 (1)_7: 503525487
+      Special Knight 1 (1)_8: 944112711
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
