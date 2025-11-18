@@ -7,7 +7,9 @@ public class BarraDeVida : MonoBehaviour
 
     public void AtualizarUI(float calculoVida)
     {
-        Vector3 novaEscala = new Vector3(calculoVida, 1, 1);
-        vidaAtualImage.transform.localScale = novaEscala;
+        if (calculoVida >= 0) {
+            Vector3 novaEscala = new Vector3(calculoVida, 1, 1);
+            vidaAtualImage.transform.localScale = novaEscala;
+            }
+        }
     }
-}
