@@ -2,26 +2,41 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    // Variáveis públicas para ajuste no Inspector
-    public float moveSpeed = 5f; // Velocidade de movimento
-    public float jumpForce = 10f; // Força do pulo
+    // Variáveis públicas
+    public float moveSpeed = 5f;
+    public float jumpForce = 10f;
 
-    private Rigidbody2D rb; // Referência ao Rigidbody2D
-    private Animator animator; // Referência ao Animator
-    private SpriteRenderer spriteRenderer; // Referência ao SpriteRenderer
-    public bool isGrounded = true; // Verifica se o jogador está no chão
+    // Crouch
+    public Vector2 crouchSize = new Vector2(1f, 0.7f);
+    public Vector2 crouchOffset = new Vector2(0f, -0.15f);
 
+    private Vector2 originalSize;
+    private Vector2 originalOffset;
+    private bool isCrouching = false;
+
+    // Componentes
+    private Rigidbody2D rb;
+    private Animator animator;
+    private SpriteRenderer spriteRenderer;
+    private BoxCollider2D box;
+
+    public bool isGrounded = true;
 
     void Start()
     {
-        // Obtém o componente Rigidbody2D do GameObject
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        box = GetComponent<BoxCollider2D>();
+
+        // Salva tamanho original do collider
+        originalSize = box.size;
+        originalOffset = box.offset;
     }
 
     void Update()
     {
+        Crouch();
         UpdateAnimator();
         Movement();
         Jump();
@@ -32,6 +47,7 @@ public class PlayerMovement : MonoBehaviour
     {
         animator.SetFloat("Speed", Mathf.Abs(rb.velocity.x));
         animator.SetBool("IsJumping", !isGrounded);
+        animator.SetBool("IsCrouching", isCrouching);
     }
 
     private void Attack()
@@ -44,8 +60,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Jump()
     {
-        // Pulo
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded && !isCrouching)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
         }
@@ -53,38 +68,57 @@ public class PlayerMovement : MonoBehaviour
 
     private void Movement()
     {
-        // Movimento horizontal
-        float moveInput = Input.GetAxis("Horizontal"); // Captura entrada do teclado (A/D ou setas)
-        rb.velocity = new Vector2(moveInput * moveSpeed, rb.velocity.y);
+        float moveInput = Input.GetAxis("Horizontal");
 
-        // Inverte a direção do sprite do personagem
+        // Se estiver agachado e NÃO pressionar A ou D → fica parado
+        if (isCrouching)
+        {
+            if (!Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.D))
+            {
+                moveInput = 0;
+            }
+        }
+
+        rb.velocity = new Vector2(moveInput * moveSpeed, rb.velocity.y);
         MirrorSprite(moveInput);
     }
 
-   private void MirrorSprite(float moveInput)
+    private void Crouch()
     {
-        if (moveInput > 0)
-            spriteRenderer.flipX = false;
-        else if (moveInput < 0)
-            spriteRenderer.flipX = true;
+        if (Input.GetKey(KeyCode.S) && isGrounded)
+        {
+            isCrouching = true;
+
+            // reduzir collider
+            box.size = crouchSize;
+            box.offset = crouchOffset;
+        }
+        else
+        {
+            isCrouching = false;
+
+            // restaurar collider
+            box.size = originalSize;
+            box.offset = originalOffset;
+        }
     }
 
-    // Verifica se o jogador está no chão (não é a melhor forma de fazer isso)
+    private void MirrorSprite(float moveInput)
+    {
+        if (moveInput > 0) spriteRenderer.flipX = false;
+        else if (moveInput < 0) spriteRenderer.flipX = true;
+    }
+
+    // Detecta chão
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Ground"))
-        {
             isGrounded = true;
-        }
     }
 
     private void OnCollisionExit2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Ground"))
-        {
             isGrounded = false;
-        }
     }
-    
-
 }

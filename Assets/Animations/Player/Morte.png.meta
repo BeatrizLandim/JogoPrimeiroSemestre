@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 875133746f2ad81449bc5e498d6eff8b
+guid: 2c89a52b364996c48a4445da36e1a9de
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 10
+  spritePixelsToUnits: 30
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -93,13 +93,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Zombie_Small_0
+      name: Morte_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 64
-        width: 14
-        height: 20
+        x: 8
+        y: 15
+        width: 15
+        height: 18
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -107,145 +107,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c712a40701cb2434bbd5f284422c1abe
-      internalID: 4514703
+      spriteID: c77a22ad330aeff4b9efd3757b4c91cc
+      internalID: 1406476031
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie_Small_1
+      name: Morte_1
       rect:
         serializedVersion: 2
-        x: 41
-        y: 64
-        width: 14
-        height: 20
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0869f2ada1a36db4982806880b60aabe
-      internalID: -1767748177
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Zombie_Small_2
-      rect:
-        serializedVersion: 2
-        x: 73
-        y: 64
-        width: 14
-        height: 20
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 454557f9d3b07cd478a178ed1783171f
-      internalID: 146203339
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Zombie_Small_3
-      rect:
-        serializedVersion: 2
-        x: 105
-        y: 64
-        width: 14
-        height: 20
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: da39f13e54196194bb3447a78e7c36ac
-      internalID: -400676717
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Zombie_Small_4
-      rect:
-        serializedVersion: 2
-        x: 9
-        y: 32
-        width: 14
-        height: 20
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 42d74f984f429dc418494f194162097e
-      internalID: -1004526023
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Zombie_Small_5
-      rect:
-        serializedVersion: 2
-        x: 41
-        y: 32
-        width: 14
-        height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3f77c9e918ecf114c8f67e2d5ec94741
-      internalID: -1904062897
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Zombie_Small_6
-      rect:
-        serializedVersion: 2
-        x: 73
-        y: 32
-        width: 14
-        height: 20
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fc88d193d5a36cf4182c34612a9a253f
-      internalID: 614275513
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Zombie_Small_7
-      rect:
-        serializedVersion: 2
-        x: 105
-        y: 32
-        width: 14
+        x: 32
+        y: 15
+        width: 15
         height: 19
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -254,19 +128,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68eafea84b217a2419c68051f3281995
-      internalID: 1417483000
+      spriteID: 5e9da31277b8bda4b809e59f079c05f2
+      internalID: -371196127
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie_Small_8
+      name: Morte_2
       rect:
         serializedVersion: 2
-        x: 137
-        y: 32
-        width: 14
+        x: 57
+        y: 15
+        width: 13
         height: 19
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -275,20 +149,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62b937eb6e960f4448bba49fdfb8d9f2
-      internalID: 1994277633
+      spriteID: 4c9a8a5112c68954fae75bb33d2cc34a
+      internalID: -1532754123
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie_Small_9
+      name: Morte_3
       rect:
         serializedVersion: 2
-        x: 9
-        y: 0
-        width: 14
-        height: 22
+        x: 81
+        y: 15
+        width: 13
+        height: 18
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -296,20 +170,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f04b9d7932bdab49a206e0345edf0b7
-      internalID: -439936846
+      spriteID: 9f668bd63086c6c42b986ef43eecc6a5
+      internalID: -2035924145
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie_Small_10
+      name: Morte_4
       rect:
         serializedVersion: 2
-        x: 41
-        y: 0
-        width: 14
-        height: 23
+        x: 102
+        y: 15
+        width: 20
+        height: 11
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -317,20 +191,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9efb98a8e868284cb881634ce5b87e4
-      internalID: 716132993
+      spriteID: 754cb8c18367c6445a73b5f8fde65781
+      internalID: 1540606133
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie_Small_11
+      name: Morte_5
       rect:
         serializedVersion: 2
-        x: 73
-        y: 0
-        width: 14
-        height: 22
+        x: 126
+        y: 15
+        width: 21
+        height: 12
+      alignment: 9
+      pivot: {x: 0.4609862, y: 0.44310537}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5e3544eeebbf1f44b9d4855dfae8c1c
+      internalID: -403491483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Morte_6
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 15
+        width: 20
+        height: 11
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -338,29 +233,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91804760527d43e41ac5cfbd36d1d2f4
-      internalID: 1554524718
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Zombie_Small_12
-      rect:
-        serializedVersion: 2
-        x: 105
-        y: 0
-        width: 14
-        height: 20
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6301cf29f6ed70f49965885cd50492de
-      internalID: -605824023
+      spriteID: cbe7636c4db848a429ccc1cd005fc143
+      internalID: 1426716130
       vertices: []
       indices: 
       edges: []
@@ -376,19 +250,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Zombie_Small_0: 4514703
-      Zombie_Small_1: -1767748177
-      Zombie_Small_10: 716132993
-      Zombie_Small_11: 1554524718
-      Zombie_Small_12: -605824023
-      Zombie_Small_2: 146203339
-      Zombie_Small_3: -400676717
-      Zombie_Small_4: -1004526023
-      Zombie_Small_5: -1904062897
-      Zombie_Small_6: 614275513
-      Zombie_Small_7: 1417483000
-      Zombie_Small_8: 1994277633
-      Zombie_Small_9: -439936846
+      Morte_0: 1406476031
+      Morte_1: -371196127
+      Morte_2: -1532754123
+      Morte_3: -2035924145
+      Morte_4: 1540606133
+      Morte_5: -403491483
+      Morte_6: 1426716130
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

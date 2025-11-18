@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: bffe5e61e8692f74d88829bb95326bce
+guid: d35f2ad3eb55ed04ea3ce36ce01e3ebc
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,8 +47,8 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 25
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 17
+  spriteBorder: {x: 16, y: 13, z: 15, w: 29}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -93,55 +93,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 2019keyboard_0
+      name: New Piskel (6)_0
       rect:
         serializedVersion: 2
-        x: 143
-        y: 23
-        width: 161
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 07a3a4ecd352bb94dad9beeb4c8775ec
-      internalID: -1676125200
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 2019keyboard_1
-      rect:
-        serializedVersion: 2
-        x: 621
-        y: 79
-        width: 29
-        height: 57
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2dee243691a5af14d943258963a8b9b1
-      internalID: 583608244
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 2019keyboard_2
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 52
-        width: 27
-        height: 27
+        x: 16
+        y: 13
+        width: 19
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,8 +107,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 767b2abd3daf83e4b84928146921febf
-      internalID: 1665654257
+      spriteID: 635cbd2221531aa489d40011a096c3c3
+      internalID: 483311838
       vertices: []
       indices: 
       edges: []
@@ -159,16 +117,14 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 0
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      2019keyboard_0: -1676125200
-      2019keyboard_1: 583608244
-      2019keyboard_2: 1665654257
+      New Piskel (6)_0: 483311838
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
