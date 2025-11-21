@@ -2,6 +2,7 @@ public class SistemaDeVidaInimigo : SistemaDeVida
 {
     Inimigo inimigo;
     BarraDeVidaInimigo barraDeVidaInimigo;
+
     new void Start()
     {
         base.Start();
@@ -12,23 +13,35 @@ public class SistemaDeVidaInimigo : SistemaDeVida
     public override void AplicarDano(float dano)
     {
         vidaAtual -= dano;
+
+        if (inimigo != null)
+        {
+            inimigo.AnimacaoDeDano();
+            inimigo.EfeitoDePiscar();
+            inimigo.EfeitoDeRecuo();
+        }
+
+        AtualizarVida();
+
         if (vidaAtual <= 0)
         {
             Morrer();
         }
-
-        inimigo.AnimacaoDeDano();
-        inimigo.EfeitoDePiscar();
-        inimigo.EfeitoDeRecuo();
-        AtualizarVida();
     }
 
     override protected void Morrer()
     {
-        inimigo.AnimacaoDeMorte();
+        if (inimigo != null)
+        {
+            inimigo.AnimacaoDeMorte();
+        }
     }
+
     void AtualizarVida()
     {
-        barraDeVidaInimigo.AtualizarUI(vidaAtual / vidaMaxima);
+        if (barraDeVidaInimigo != null)
+        {
+            barraDeVidaInimigo.AtualizarUI(vidaAtual / vidaMaxima);
+        }
     }
 }

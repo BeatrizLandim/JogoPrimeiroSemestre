@@ -22,6 +22,10 @@ public class PlayerMovement : MonoBehaviour
 
     public bool isGrounded = true;
 
+    bool estaDancando = false;
+
+   
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -41,6 +45,8 @@ public class PlayerMovement : MonoBehaviour
         Movement();
         Jump();
         Attack();
+        if (estaDancando)
+            return; 
     }
 
     private void UpdateAnimator()
@@ -120,5 +126,18 @@ public class PlayerMovement : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Ground"))
             isGrounded = false;
+    }
+
+    public void IniciarDanca()
+    {
+        estaDancando = true;
+        rb.velocity = Vector2.zero;
+        animator.SetBool("Dance", true);
+    }
+
+    public void PararDanca()
+    {
+        estaDancando = false;
+        animator.SetBool("Dance", false);
     }
 }

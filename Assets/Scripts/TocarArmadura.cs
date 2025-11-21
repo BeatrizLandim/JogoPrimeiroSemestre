@@ -3,20 +3,21 @@ using UnityEngine.UI;
 
 public class TocarArmadura : MonoBehaviour
 {
-    public Image imagemDoCanvas;      // arrastar no inspector
-    public Sprite novaImagem;         // arrastar no inspector
+    public Image imagemDoCanvas;
+    public Sprite novaImagem;
+    public ImagemTelaCheiaController controlador; // adicionar isto
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            // Troca a imagem no Canvas
             if (imagemDoCanvas != null && novaImagem != null)
-            {
                 imagemDoCanvas.sprite = novaImagem;
-            }
 
-            // Faz o objeto sumir
+            // Ativa a imagem em tela cheia + pausa o jogo
+            if (controlador != null)
+                controlador.MostrarImagemInicial();
+
             Destroy(gameObject);
         }
     }
