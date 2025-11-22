@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9dd1b2047b7562940bd311b2c2a694f3
+guid: 284183273f3469447b8416f3f22ef9c0
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 6
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -93,13 +93,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: New Piskel (1)_0
+      name: New Piskel (2)_3
       rect:
         serializedVersion: 2
-        x: 5
-        y: 15
-        width: 32
-        height: 9
+        x: 100
+        y: 2
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -107,20 +107,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 584bddf0e15e6074fab7d10039c80c25
-      internalID: -1547760801
+      spriteID: 9b665f0c9764f944c87cb082f19b6157
+      internalID: 295240191
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: New Piskel (1)_1
+      name: New Piskel (2)_44
       rect:
         serializedVersion: 2
-        x: 16
-        y: 3
-        width: 10
-        height: 9
+        x: 0
+        y: 2
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5fe235ae0537eb84c98829bbfacd2d5f
-      internalID: 1871943250
+      spriteID: 656b54cfe3e9006418b69f7446bfc4f2
+      internalID: 2079129353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New Piskel (2)_47
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 2
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff8ce84784768ac4abdf0b5b3078ff00
+      internalID: 1416506498
       vertices: []
       indices: 
       edges: []
@@ -145,8 +166,54 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      New Piskel (1)_0: -1547760801
-      New Piskel (1)_1: 1871943250
+      New Piskel (2)_0: -405950798
+      New Piskel (2)_1: 550692320
+      New Piskel (2)_10: 345062875
+      New Piskel (2)_11: 510341211
+      New Piskel (2)_12: -119950262
+      New Piskel (2)_13: -72950077
+      New Piskel (2)_14: 160351428
+      New Piskel (2)_15: 904990162
+      New Piskel (2)_16: -680031586
+      New Piskel (2)_17: 1356859037
+      New Piskel (2)_18: -371075748
+      New Piskel (2)_19: 1557969422
+      New Piskel (2)_2: 374962956
+      New Piskel (2)_20: 1223647169
+      New Piskel (2)_21: 1405116125
+      New Piskel (2)_22: 1788439824
+      New Piskel (2)_23: 1334115232
+      New Piskel (2)_24: -1988776434
+      New Piskel (2)_25: -1706405623
+      New Piskel (2)_26: -1678596261
+      New Piskel (2)_27: -14384125
+      New Piskel (2)_28: -314206826
+      New Piskel (2)_29: 1724879609
+      New Piskel (2)_3: 295240191
+      New Piskel (2)_30: -409532529
+      New Piskel (2)_31: 619643799
+      New Piskel (2)_32: 2030310132
+      New Piskel (2)_33: 1441178757
+      New Piskel (2)_34: 2024965191
+      New Piskel (2)_35: 392632574
+      New Piskel (2)_36: 1640136613
+      New Piskel (2)_37: -1217353578
+      New Piskel (2)_38: 1457410158
+      New Piskel (2)_39: -681975712
+      New Piskel (2)_4: -968040331
+      New Piskel (2)_40: -372129758
+      New Piskel (2)_41: -1510318463
+      New Piskel (2)_42: -1473826681
+      New Piskel (2)_43: -842043458
+      New Piskel (2)_44: 2079129353
+      New Piskel (2)_45: -1720349553
+      New Piskel (2)_46: 1441064713
+      New Piskel (2)_47: 1416506498
+      New Piskel (2)_5: 656991392
+      New Piskel (2)_6: 2069430111
+      New Piskel (2)_7: -690883659
+      New Piskel (2)_8: -2062868812
+      New Piskel (2)_9: -20327086
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

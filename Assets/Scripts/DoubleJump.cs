@@ -4,15 +4,17 @@ public class DoubleJump : MonoBehaviour
 {
     [Header("Configurações de Pulo")]
     public float jumpForce = 10f;
-    public int maxJumps = 1; // 2 = pulo duplo
+    public int maxJumps = 1; // pulo normal + pulo duplo
 
     private int jumpsRemaining;
     private Rigidbody2D rb;
 
     [Header("Detecção de Chão")]
     public Transform groundCheck;
-    public float checkRadius = 0.2f;
-    public LayerMask whatIsGround;
+    public float checkRadius = 0.15f;     // menor para evitar detectar paredes
+    public LayerMask groundLayer;         // somente chão real
+
+    private bool isGrounded;
 
     void Start()
     {
@@ -22,13 +24,20 @@ public class DoubleJump : MonoBehaviour
 
     void Update()
     {
-        bool isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, whatIsGround);
+        // CHECAGEM DE CHÃO REAL
+        isGrounded = Physics2D.OverlapCircle(
+            groundCheck.position,
+            checkRadius,
+            groundLayer
+        );
 
-        // se tocar o chão, resetar pulo
+        // RESET SE ESTIVER NO CHÃO
         if (isGrounded)
+        {
             jumpsRemaining = maxJumps;
+        }
 
-        // botão de pulo (Space)
+        // INPUT DO PULO
         if (Input.GetButtonDown("Jump") && jumpsRemaining > 0)
         {
             Jump();
@@ -37,15 +46,17 @@ public class DoubleJump : MonoBehaviour
 
     void Jump()
     {
-        rb.velocity = new Vector2(rb.velocity.x, 0f); // limpa velocidade vertical
+        // garantir pulo consistente
+        rb.velocity = new Vector2(rb.velocity.x, 0f);
+
         rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
         jumpsRemaining--;
     }
 
     void OnDrawGizmosSelected()
     {
-        // desenha círculo para verificação do chão
         Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(groundCheck.position, checkRadius);
+        if (groundCheck != null)
+            Gizmos.DrawWireSphere(groundCheck.position, checkRadius);
     }
 }

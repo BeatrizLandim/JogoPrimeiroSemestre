@@ -10,17 +10,21 @@ public class PlayerMovement : MonoBehaviour
     public Vector2 crouchSize = new Vector2(1f, 0.7f);
     public Vector2 crouchOffset = new Vector2(0f, -0.15f);
 
+    public float inputX;       // direção horizont
+
     private Vector2 originalSize;
     private Vector2 originalOffset;
     private bool isCrouching = false;
 
     // Componentes
-    private Rigidbody2D rb;
+    public Rigidbody2D rb;
     private Animator animator;
     private SpriteRenderer spriteRenderer;
     private BoxCollider2D box;
 
-    public bool isGrounded = true;
+    private PlayerCrouch crouch;
+
+    public bool isGrounded;
 
     bool estaDancando = false;
 
@@ -28,6 +32,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
+        crouch = GetComponent<PlayerCrouch>();
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -73,20 +78,15 @@ public class PlayerMovement : MonoBehaviour
     }
 
     private void Movement()
-    {
-        float moveInput = Input.GetAxis("Horizontal");
+    {   
+    float moveInput = Input.GetAxis("Horizontal");
+    float speed = moveSpeed;
 
-        // Se estiver agachado e NÃO pressionar A ou D → fica parado
-        if (isCrouching)
-        {
-            if (!Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.D))
-            {
-                moveInput = 0;
-            }
-        }
+    if (crouch != null && crouch.isCrouching)
+        speed *= 0.6f;
 
-        rb.velocity = new Vector2(moveInput * moveSpeed, rb.velocity.y);
-        MirrorSprite(moveInput);
+    rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
+    MirrorSprite(moveInput);
     }
 
     private void Crouch()

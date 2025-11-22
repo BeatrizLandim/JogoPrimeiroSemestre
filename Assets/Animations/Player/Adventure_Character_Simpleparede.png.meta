@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9dd1b2047b7562940bd311b2c2a694f3
+guid: 9a8ccc77f326f8e4f91b80d4d4c23358
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 6
+  spritePixelsToUnits: 30
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -93,13 +93,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: New Piskel (1)_0
+      name: Adventure_Character_Simpleparede_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 15
-        width: 32
-        height: 9
+        x: 2
+        y: 2
+        width: 13
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -107,29 +107,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 584bddf0e15e6074fab7d10039c80c25
-      internalID: -1547760801
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: New Piskel (1)_1
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 3
-        width: 10
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5fe235ae0537eb84c98829bbfacd2d5f
-      internalID: 1871943250
+      spriteID: 5a2396693dcb67746aed516f696d78c6
+      internalID: 1144107690
       vertices: []
       indices: 
       edges: []
@@ -145,8 +124,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      New Piskel (1)_0: -1547760801
-      New Piskel (1)_1: 1871943250
+      Adventure_Character_Simpleparede_0: 1144107690
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

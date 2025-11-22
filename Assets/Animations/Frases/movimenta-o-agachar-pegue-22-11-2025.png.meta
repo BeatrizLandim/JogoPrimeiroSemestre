@@ -1,0 +1,1846 @@
+fileFormatVersion: 2
+guid: 82fe16f974d0556489340dbb7746b197
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_0
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 977
+        width: 33
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9f668d2f8e0c547b3cccdb07cbc4d4
+      internalID: 429795248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_1
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 927
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a911054579377424bbfe5552dabe0cb5
+      internalID: -1088866337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_2
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 927
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769f54fdf4ebe19429f2a13e0871dd89
+      internalID: 994620414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_3
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 927
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3024155206632d94ea74cb4e454046d3
+      internalID: 1852233061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_4
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 927
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3815b51b8d854334a82eed6b35489670
+      internalID: -928529546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_5
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 927
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a89a61002014204bb92cd80624f586f
+      internalID: 631717711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_6
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 927
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e9a427796794e4397adf0aea481471
+      internalID: -829172235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_7
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 927
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfbfd4af8a761334bb24cdce103f41fd
+      internalID: 292604258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_8
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 927
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb84599a8c2c524a895d46d971ae5d3
+      internalID: 615180065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_9
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 927
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a8921ca73bf6774e93ab5fdbe28f59e
+      internalID: 1752602027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_10
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 915
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab5706f1c2516c42b990b292882bfdd
+      internalID: 1925165009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_11
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 927
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd1b9b8b344b8834eacb4c645a98ceaf
+      internalID: 288771273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_12
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 927
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08bd0bda2ec2db141bb4504ed2404cd6
+      internalID: 957139810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_13
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 952
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7afd69dcd8d2b64e91111d60dc26fa4
+      internalID: -1674663636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_14
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 930
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c444f6d5f82a154c88b65a9313b55d3
+      internalID: 205686363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_15
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 800
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5def3416ec43e48ab1a5e58e21c76f
+      internalID: -1442881951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_16
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 800
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332df4b23f403e04881fa3e5b3f314c2
+      internalID: -1211153065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_17
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 800
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b169f60872265f04a828c4960228dc83
+      internalID: -2076008246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_18
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 800
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb533e2a1d0f21548b3a71314c0e075c
+      internalID: -153747501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_19
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 800
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e2aaed403b040428307e2ffeeb4d1d
+      internalID: -1584644906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_20
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 800
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f08563779fd3be4fb8496f0b76f14af
+      internalID: -1198608438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_21
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 800
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e39a3dfbbb598544e9935aaf84e33421
+      internalID: 962524787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_22
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 824
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248d28e905eb1164fa68aa4aaaee1ca4
+      internalID: -1062243229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_23
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 803
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1656956b8d2d929418998892e5db9323
+      internalID: 697227054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_24
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 672
+        width: 551
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa9548090324884189bb51b13e1e233
+      internalID: 1881253886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_37
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 544
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ea52d8ba7102a4eac27f6b9715a8b0
+      internalID: -1460685806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_38
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 544
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4537a4ff08bfe124d9b564a2e2d7f59a
+      internalID: 1181667835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_39
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 544
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c520451a0da03454b9bf44e9c476c90f
+      internalID: 1080933671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_40
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 544
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045db3c798a3fec4dbad43c4bf9826f0
+      internalID: -1125359981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_41
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 544
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b469308e0d1688443ae1c4afd92a7349
+      internalID: 2001445869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_42
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 569
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde585e017a7fe64ba48b7df6bb3bc91
+      internalID: 697482460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_43
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 547
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f62dc9e33eaa7ab488f0ce9f59159586
+      internalID: 1278308413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_44
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 417
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd85057ffae596458f5251a19595646
+      internalID: -867151728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_45
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 417
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a01268cd981b7f4cb2f312f07c085ff
+      internalID: 138031467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_46
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 417
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85948ab39f738204ca505bfa130a88a1
+      internalID: -1152951140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_47
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 417
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d275c5587cb69d142aeb15291f069b63
+      internalID: 1145389557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_48
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 417
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de2624013f7cbd9499bc0097bfaa003c
+      internalID: -1297667116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_49
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 417
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c12ec6e59cc92429b483d2ed2cf205
+      internalID: 535486080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_50
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 417
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4a789bfb81b884aabf82d21263f650
+      internalID: 957388540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_51
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 417
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f83eaf7867824446b3f62385a2d50d2
+      internalID: -1306193290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_52
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 417
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39762b8105428534397ed4f68e7abb89
+      internalID: 1734950816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_53
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 417
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d244f29fea9814eaefb8c2d0987ede
+      internalID: 1769492281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_54
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 417
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ea72fbc92bcf74ea32a85449501005
+      internalID: -1991130489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_55
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 417
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ee1dd701813ad4ab7784de299b602e
+      internalID: -1391450402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_56
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 417
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0527dd7394100e243ac82c7518b0c219
+      internalID: 275160559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_57
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 417
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 932330553e04c0749936317890505a27
+      internalID: 1062923746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_58
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 289
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfdedceb22a138d4f8e109f16ae833a6
+      internalID: -2116058536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_59
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 289
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 445a65f354e6cc842a77a94e1b9a2e50
+      internalID: -1818529054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_60
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 289
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25357a286e6c8634ba7d40eb9b6ae7b5
+      internalID: -511518542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_61
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 289
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf96c5beeaf1b1489278b2d7b116094
+      internalID: -386947280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_62
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 289
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113f76202181f0448bcb8b6e77b18c37
+      internalID: -95180536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_63
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 289
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03405d05e4919ff42ba6b158e560d0e9
+      internalID: 1706304730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_64
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 289
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d825ce7d9c9d34286715101b6490ca
+      internalID: 2144801792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_65
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 289
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0700dd626be41ab40b99b0482cb63f99
+      internalID: -197159644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_66
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 289
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887e7d2aeec130b448ed439797251a97
+      internalID: -698039493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_67
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 289
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6efa3f6ea0ae91469918c19b44b7a83
+      internalID: 217374729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_68
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 289
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf68117913f34654589a49c9bc85e083
+      internalID: 1874641895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_69
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 289
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf826e053099a746af0629c4f89c627
+      internalID: -1729655884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_70
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 289
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c69fe6b8e2d29c640979dcb632430607
+      internalID: -30315695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_71
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 289
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93af8dede607e134e9829b308b2dcf09
+      internalID: 1755323749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_72
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 161
+        width: 232
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05fff16d814d0044ab231256043fa1b1
+      internalID: -1971660310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_80
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 33
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d269f1df15d506c44ae43c8eac1aa87f
+      internalID: -909090906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_81
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 33
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a36a50feb0a42e4bba5f1a4feaf76d3
+      internalID: 1845196278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_82
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 33
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1530d67984ea1974a86596a367edd592
+      internalID: -510821399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_83
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 33
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb248cab1d8c3ab4b84056f686c9c3d0
+      internalID: 330749397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_84
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 33
+        width: 20
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb13641e6bc972644b676fa3fb1afc5e
+      internalID: -1411097266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_85
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 33
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d24cfa1541efe448cbb5d53bbce82a
+      internalID: -64180503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_86
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 33
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc298b899e837740afd8724280f798b
+      internalID: 1459600238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_87
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 33
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eab1ce400a67af4b903f341b82b6406
+      internalID: 1522576286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_88
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 33
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7811ac0d8cc053409bb0947946b9e47
+      internalID: -1716726985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_89
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 33
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d4cd8a7e8d934418367aa8fd3f0fa3
+      internalID: -1603847227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_90
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 33
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60999cc42586ec24ca8df86592d7fea6
+      internalID: 1709902825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_91
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 33
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb0d4c756dbc5b4d82832f652395908
+      internalID: 99151563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_92
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 33
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9623d5f0663f39d449a93ca8140f6f67
+      internalID: -958447898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_93
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 33
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43256da86f7e81f4b88c4d2a92a10cb4
+      internalID: -2010418300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_94
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 33
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e6b78143256814684388a18b8cc235
+      internalID: 1617565090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_95
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 33
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f681bc4de48bf43419d09de061b9b6f1
+      internalID: -1491076946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pegue-22-11-2025_96
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 33
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee5e10daf1cfc2045ba1c14652014a16
+      internalID: -2118756251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      movimenta-o-agachar-pegue-22-11-2025_0: 429795248
+      movimenta-o-agachar-pegue-22-11-2025_1: -1088866337
+      movimenta-o-agachar-pegue-22-11-2025_10: 1925165009
+      movimenta-o-agachar-pegue-22-11-2025_11: 288771273
+      movimenta-o-agachar-pegue-22-11-2025_12: 957139810
+      movimenta-o-agachar-pegue-22-11-2025_13: -1674663636
+      movimenta-o-agachar-pegue-22-11-2025_14: 205686363
+      movimenta-o-agachar-pegue-22-11-2025_15: -1442881951
+      movimenta-o-agachar-pegue-22-11-2025_16: -1211153065
+      movimenta-o-agachar-pegue-22-11-2025_17: -2076008246
+      movimenta-o-agachar-pegue-22-11-2025_18: -153747501
+      movimenta-o-agachar-pegue-22-11-2025_19: -1584644906
+      movimenta-o-agachar-pegue-22-11-2025_2: 994620414
+      movimenta-o-agachar-pegue-22-11-2025_20: -1198608438
+      movimenta-o-agachar-pegue-22-11-2025_21: 962524787
+      movimenta-o-agachar-pegue-22-11-2025_22: -1062243229
+      movimenta-o-agachar-pegue-22-11-2025_23: 697227054
+      movimenta-o-agachar-pegue-22-11-2025_24: 1881253886
+      movimenta-o-agachar-pegue-22-11-2025_25: 1795319269
+      movimenta-o-agachar-pegue-22-11-2025_26: 254618236
+      movimenta-o-agachar-pegue-22-11-2025_27: 206143808
+      movimenta-o-agachar-pegue-22-11-2025_28: 1601352604
+      movimenta-o-agachar-pegue-22-11-2025_29: 1422138966
+      movimenta-o-agachar-pegue-22-11-2025_3: 1852233061
+      movimenta-o-agachar-pegue-22-11-2025_30: -2045036505
+      movimenta-o-agachar-pegue-22-11-2025_31: 950293699
+      movimenta-o-agachar-pegue-22-11-2025_32: -2083082054
+      movimenta-o-agachar-pegue-22-11-2025_33: -2128620857
+      movimenta-o-agachar-pegue-22-11-2025_34: 518880506
+      movimenta-o-agachar-pegue-22-11-2025_35: -1663033463
+      movimenta-o-agachar-pegue-22-11-2025_36: 1833723466
+      movimenta-o-agachar-pegue-22-11-2025_37: -1460685806
+      movimenta-o-agachar-pegue-22-11-2025_38: 1181667835
+      movimenta-o-agachar-pegue-22-11-2025_39: 1080933671
+      movimenta-o-agachar-pegue-22-11-2025_4: -928529546
+      movimenta-o-agachar-pegue-22-11-2025_40: -1125359981
+      movimenta-o-agachar-pegue-22-11-2025_41: 2001445869
+      movimenta-o-agachar-pegue-22-11-2025_42: 697482460
+      movimenta-o-agachar-pegue-22-11-2025_43: 1278308413
+      movimenta-o-agachar-pegue-22-11-2025_44: -867151728
+      movimenta-o-agachar-pegue-22-11-2025_45: 138031467
+      movimenta-o-agachar-pegue-22-11-2025_46: -1152951140
+      movimenta-o-agachar-pegue-22-11-2025_47: 1145389557
+      movimenta-o-agachar-pegue-22-11-2025_48: -1297667116
+      movimenta-o-agachar-pegue-22-11-2025_49: 535486080
+      movimenta-o-agachar-pegue-22-11-2025_5: 631717711
+      movimenta-o-agachar-pegue-22-11-2025_50: 957388540
+      movimenta-o-agachar-pegue-22-11-2025_51: -1306193290
+      movimenta-o-agachar-pegue-22-11-2025_52: 1734950816
+      movimenta-o-agachar-pegue-22-11-2025_53: 1769492281
+      movimenta-o-agachar-pegue-22-11-2025_54: -1991130489
+      movimenta-o-agachar-pegue-22-11-2025_55: -1391450402
+      movimenta-o-agachar-pegue-22-11-2025_56: 275160559
+      movimenta-o-agachar-pegue-22-11-2025_57: 1062923746
+      movimenta-o-agachar-pegue-22-11-2025_58: -2116058536
+      movimenta-o-agachar-pegue-22-11-2025_59: -1818529054
+      movimenta-o-agachar-pegue-22-11-2025_6: -829172235
+      movimenta-o-agachar-pegue-22-11-2025_60: -511518542
+      movimenta-o-agachar-pegue-22-11-2025_61: -386947280
+      movimenta-o-agachar-pegue-22-11-2025_62: -95180536
+      movimenta-o-agachar-pegue-22-11-2025_63: 1706304730
+      movimenta-o-agachar-pegue-22-11-2025_64: 2144801792
+      movimenta-o-agachar-pegue-22-11-2025_65: -197159644
+      movimenta-o-agachar-pegue-22-11-2025_66: -698039493
+      movimenta-o-agachar-pegue-22-11-2025_67: 217374729
+      movimenta-o-agachar-pegue-22-11-2025_68: 1874641895
+      movimenta-o-agachar-pegue-22-11-2025_69: -1729655884
+      movimenta-o-agachar-pegue-22-11-2025_7: 292604258
+      movimenta-o-agachar-pegue-22-11-2025_70: -30315695
+      movimenta-o-agachar-pegue-22-11-2025_71: 1755323749
+      movimenta-o-agachar-pegue-22-11-2025_72: -1971660310
+      movimenta-o-agachar-pegue-22-11-2025_73: -1630148927
+      movimenta-o-agachar-pegue-22-11-2025_74: 186432582
+      movimenta-o-agachar-pegue-22-11-2025_75: -852955907
+      movimenta-o-agachar-pegue-22-11-2025_76: 1167082647
+      movimenta-o-agachar-pegue-22-11-2025_77: -1651783816
+      movimenta-o-agachar-pegue-22-11-2025_78: -1573499869
+      movimenta-o-agachar-pegue-22-11-2025_79: -1620003651
+      movimenta-o-agachar-pegue-22-11-2025_8: 615180065
+      movimenta-o-agachar-pegue-22-11-2025_80: -909090906
+      movimenta-o-agachar-pegue-22-11-2025_81: 1845196278
+      movimenta-o-agachar-pegue-22-11-2025_82: -510821399
+      movimenta-o-agachar-pegue-22-11-2025_83: 330749397
+      movimenta-o-agachar-pegue-22-11-2025_84: -1411097266
+      movimenta-o-agachar-pegue-22-11-2025_85: -64180503
+      movimenta-o-agachar-pegue-22-11-2025_86: 1459600238
+      movimenta-o-agachar-pegue-22-11-2025_87: 1522576286
+      movimenta-o-agachar-pegue-22-11-2025_88: -1716726985
+      movimenta-o-agachar-pegue-22-11-2025_89: -1603847227
+      movimenta-o-agachar-pegue-22-11-2025_9: 1752602027
+      movimenta-o-agachar-pegue-22-11-2025_90: 1709902825
+      movimenta-o-agachar-pegue-22-11-2025_91: 99151563
+      movimenta-o-agachar-pegue-22-11-2025_92: -958447898
+      movimenta-o-agachar-pegue-22-11-2025_93: -2010418300
+      movimenta-o-agachar-pegue-22-11-2025_94: 1617565090
+      movimenta-o-agachar-pegue-22-11-2025_95: -1491076946
+      movimenta-o-agachar-pegue-22-11-2025_96: -2118756251
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

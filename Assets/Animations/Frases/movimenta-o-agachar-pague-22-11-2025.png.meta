@@ -1,0 +1,376 @@
+fileFormatVersion: 2
+guid: 12fbba45560344e458aa7c59da9eb1f9
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pague-22-11-2025_1
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 914
+        width: 441
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5987cb88f5b63f740a1a21a965443a53
+      internalID: 585628168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pague-22-11-2025_15
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 800
+        width: 276
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 722293ecf426aa64993d8b31164a2dc2
+      internalID: 296590840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pague-22-11-2025_24
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 672
+        width: 553
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3273784e876ef1d4b8734b7c00592363
+      internalID: -650342184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pague-22-11-2025_41
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 544
+        width: 197
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918700ad238ba8b4aa0cd230af906459
+      internalID: -904811689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pague-22-11-2025_44
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 417
+        width: 591
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bff7459facb44b4986aa36d2ebe50b5
+      internalID: -1819170138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pague-22-11-2025_58
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 289
+        width: 577
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 303f4107b00f8fb4ca7f8bbc2b9d58d9
+      internalID: 1199167330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pague-22-11-2025_76
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 161
+        width: 233
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05214eb6973601b4a8baebafee8f31c3
+      internalID: -1899543619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimenta-o-agachar-pague-22-11-2025_80
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 33
+        width: 691
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47f71bf1000d1cd46bb3dc5ab52a5206
+      internalID: 1335945953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      movimenta-o-agachar-pague-22-11-2025_0: -1538383573
+      movimenta-o-agachar-pague-22-11-2025_1: 585628168
+      movimenta-o-agachar-pague-22-11-2025_10: 364161304
+      movimenta-o-agachar-pague-22-11-2025_11: 1080965142
+      movimenta-o-agachar-pague-22-11-2025_12: -336181975
+      movimenta-o-agachar-pague-22-11-2025_13: -1403014786
+      movimenta-o-agachar-pague-22-11-2025_14: 750378408
+      movimenta-o-agachar-pague-22-11-2025_15: 296590840
+      movimenta-o-agachar-pague-22-11-2025_16: 1375837163
+      movimenta-o-agachar-pague-22-11-2025_17: 382555176
+      movimenta-o-agachar-pague-22-11-2025_18: -1344800815
+      movimenta-o-agachar-pague-22-11-2025_19: -2137140505
+      movimenta-o-agachar-pague-22-11-2025_2: -1344174460
+      movimenta-o-agachar-pague-22-11-2025_20: 1963445062
+      movimenta-o-agachar-pague-22-11-2025_21: -1541633584
+      movimenta-o-agachar-pague-22-11-2025_22: 1590979783
+      movimenta-o-agachar-pague-22-11-2025_23: 263949307
+      movimenta-o-agachar-pague-22-11-2025_24: -650342184
+      movimenta-o-agachar-pague-22-11-2025_25: -521742645
+      movimenta-o-agachar-pague-22-11-2025_26: -2049316514
+      movimenta-o-agachar-pague-22-11-2025_27: -961169720
+      movimenta-o-agachar-pague-22-11-2025_28: 1192546982
+      movimenta-o-agachar-pague-22-11-2025_29: -1343295827
+      movimenta-o-agachar-pague-22-11-2025_3: -1615056560
+      movimenta-o-agachar-pague-22-11-2025_30: -339124928
+      movimenta-o-agachar-pague-22-11-2025_31: -759895745
+      movimenta-o-agachar-pague-22-11-2025_32: 1794888358
+      movimenta-o-agachar-pague-22-11-2025_33: -520811615
+      movimenta-o-agachar-pague-22-11-2025_34: -259927375
+      movimenta-o-agachar-pague-22-11-2025_35: -555413659
+      movimenta-o-agachar-pague-22-11-2025_36: 955117576
+      movimenta-o-agachar-pague-22-11-2025_37: -519786785
+      movimenta-o-agachar-pague-22-11-2025_38: 995859163
+      movimenta-o-agachar-pague-22-11-2025_39: -866332761
+      movimenta-o-agachar-pague-22-11-2025_4: -2038427111
+      movimenta-o-agachar-pague-22-11-2025_40: 1601302530
+      movimenta-o-agachar-pague-22-11-2025_41: -904811689
+      movimenta-o-agachar-pague-22-11-2025_42: 2020449703
+      movimenta-o-agachar-pague-22-11-2025_43: 102450664
+      movimenta-o-agachar-pague-22-11-2025_44: -1819170138
+      movimenta-o-agachar-pague-22-11-2025_45: 1364650992
+      movimenta-o-agachar-pague-22-11-2025_46: 285226450
+      movimenta-o-agachar-pague-22-11-2025_47: 916290656
+      movimenta-o-agachar-pague-22-11-2025_48: -298866981
+      movimenta-o-agachar-pague-22-11-2025_49: 1809876351
+      movimenta-o-agachar-pague-22-11-2025_5: -1089824629
+      movimenta-o-agachar-pague-22-11-2025_50: 1354513025
+      movimenta-o-agachar-pague-22-11-2025_51: 816127953
+      movimenta-o-agachar-pague-22-11-2025_52: -1383854017
+      movimenta-o-agachar-pague-22-11-2025_53: 2022787013
+      movimenta-o-agachar-pague-22-11-2025_54: 1358999497
+      movimenta-o-agachar-pague-22-11-2025_55: 993926256
+      movimenta-o-agachar-pague-22-11-2025_56: 416591885
+      movimenta-o-agachar-pague-22-11-2025_57: -1900885391
+      movimenta-o-agachar-pague-22-11-2025_58: 1199167330
+      movimenta-o-agachar-pague-22-11-2025_59: 1587789501
+      movimenta-o-agachar-pague-22-11-2025_6: 661035847
+      movimenta-o-agachar-pague-22-11-2025_60: -1186903487
+      movimenta-o-agachar-pague-22-11-2025_61: 1151827601
+      movimenta-o-agachar-pague-22-11-2025_62: 528565828
+      movimenta-o-agachar-pague-22-11-2025_63: -370897054
+      movimenta-o-agachar-pague-22-11-2025_64: 1610315324
+      movimenta-o-agachar-pague-22-11-2025_65: 1443139014
+      movimenta-o-agachar-pague-22-11-2025_66: -1407200424
+      movimenta-o-agachar-pague-22-11-2025_67: 916619868
+      movimenta-o-agachar-pague-22-11-2025_68: -1938064045
+      movimenta-o-agachar-pague-22-11-2025_69: 1005577781
+      movimenta-o-agachar-pague-22-11-2025_7: 1661732887
+      movimenta-o-agachar-pague-22-11-2025_70: -514207260
+      movimenta-o-agachar-pague-22-11-2025_71: -406398344
+      movimenta-o-agachar-pague-22-11-2025_72: 1667982327
+      movimenta-o-agachar-pague-22-11-2025_73: -1530673629
+      movimenta-o-agachar-pague-22-11-2025_74: -749671786
+      movimenta-o-agachar-pague-22-11-2025_75: -2096899288
+      movimenta-o-agachar-pague-22-11-2025_76: -1899543619
+      movimenta-o-agachar-pague-22-11-2025_77: -2072815188
+      movimenta-o-agachar-pague-22-11-2025_78: 1676141542
+      movimenta-o-agachar-pague-22-11-2025_79: 845548381
+      movimenta-o-agachar-pague-22-11-2025_8: -1906634837
+      movimenta-o-agachar-pague-22-11-2025_80: 1335945953
+      movimenta-o-agachar-pague-22-11-2025_81: 1555025585
+      movimenta-o-agachar-pague-22-11-2025_82: 1167902710
+      movimenta-o-agachar-pague-22-11-2025_83: -462194082
+      movimenta-o-agachar-pague-22-11-2025_84: 749484954
+      movimenta-o-agachar-pague-22-11-2025_85: 780964184
+      movimenta-o-agachar-pague-22-11-2025_86: 371921924
+      movimenta-o-agachar-pague-22-11-2025_87: 2066968866
+      movimenta-o-agachar-pague-22-11-2025_88: 1967450515
+      movimenta-o-agachar-pague-22-11-2025_89: 308300059
+      movimenta-o-agachar-pague-22-11-2025_9: 567753689
+      movimenta-o-agachar-pague-22-11-2025_90: -365001053
+      movimenta-o-agachar-pague-22-11-2025_91: -941744418
+      movimenta-o-agachar-pague-22-11-2025_92: -1781202977
+      movimenta-o-agachar-pague-22-11-2025_93: -1984540552
+      movimenta-o-agachar-pague-22-11-2025_94: 826332558
+      movimenta-o-agachar-pague-22-11-2025_95: -1456285452
+      movimenta-o-agachar-pague-22-11-2025_96: -1711182841
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
