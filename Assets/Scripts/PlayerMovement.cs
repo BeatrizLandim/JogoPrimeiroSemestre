@@ -28,7 +28,10 @@ public class PlayerMovement : MonoBehaviour
 
     bool estaDancando = false;
 
-   
+   public Transform groundCheck;
+   public float groundRadius = 0.1f;
+   public LayerMask groundLayer;
+
 
     void Start()
     {
@@ -52,6 +55,15 @@ public class PlayerMovement : MonoBehaviour
         Attack();
         if (estaDancando)
             return; 
+    }
+
+    void FixedUpdate()
+    {
+    isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, groundLayer);
+
+    // Evita travamento se entrar no chão com alta velocidade
+    if (isGrounded && rb.velocity.y > 1f)
+        isGrounded = false;
     }
 
     private void UpdateAnimator()

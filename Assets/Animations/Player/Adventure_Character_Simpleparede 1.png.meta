@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9a8ccc77f326f8e4f91b80d4d4c23358
+guid: 3b23b8932ec8f474dab58b30736c5448
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -93,22 +93,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Adventure_Character_Simpleparede_0
+      name: Adventure_Character_Simpleparede 1_0
       rect:
         serializedVersion: 2
-        x: 2
+        x: 6
         y: 2
         width: 13
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a2396693dcb67746aed516f696d78c6
-      internalID: 1144107690
+      spriteID: 35031dd485a09b043a3a7d6470f8cf9a
+      internalID: 700568583
       vertices: []
       indices: 
       edges: []
@@ -124,7 +124,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Adventure_Character_Simpleparede_0: 1144107690
+      Adventure_Character_Simpleparede 1_0: 700568583
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

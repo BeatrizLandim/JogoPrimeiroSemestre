@@ -1356,9 +1356,9 @@ TextureImporter:
       name: movimenta-o-agachar-pegue-22-11-2025_72
       rect:
         serializedVersion: 2
-        x: 262
-        y: 161
-        width: 232
+        x: 296
+        y: 160
+        width: 198
         height: 45
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
