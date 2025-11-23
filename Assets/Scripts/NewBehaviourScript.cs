@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PlayerDoubleJump : MonoBehaviour
+public class DoubleJump : MonoBehaviour
 {
     [Header("Movimentação")]
     public float speed = 5f;

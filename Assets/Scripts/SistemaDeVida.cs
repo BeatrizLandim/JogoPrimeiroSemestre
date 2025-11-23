@@ -1,75 +1,48 @@
+using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class SistemaDeVida : MonoBehaviour
 {
-    [Header("Barra de Vida")]
     public BarraDeVida barraDeVida;
 
-    [Header("Configuração de Vida")]
-    [Range(0, 100)] public float vidaMaxima = 100f;
-    [Range(0, 100)] public float vidaAtual;
+    //Mostra na unity um slider que vai de 0 a 100
+    [Range(0, 100)]
+    public float vidaMaxima = 100f;
+    [Range(0, 100)]
+    public float vidaAtual;
 
-    [Header("Animações")]
-    public Animator anim;
-
-    [Header("Tempo para Reiniciar")]
-    public float tempoAntesDeReiniciar = 5f;
-
-    protected bool morreu = false;
-
+    // Start is called before the first frame update
     protected void Start()
     {
         vidaAtual = vidaMaxima;
         AtualizarVida();
-
-        if (anim == null)
-            anim = GetComponent<Animator>();
-
-        anim.SetBool("Vivo", true);
-        anim.SetBool("Machucado", false);
     }
 
     public virtual void AplicarDano(float dano)
     {
-        if (morreu) return;
-
         vidaAtual -= dano;
-        AtualizarVida();
-
-        anim.SetBool("Machucado", true);
-        Invoke(nameof(PararAnimMachucado), 0.25f);
-
         if (vidaAtual <= 0)
         {
             Morrer();
         }
+
+        AtualizarVida();
     }
 
-    private void PararAnimMachucado()
+    private void AtualizarVida() //No futuro isso poderia ser controlado através de eventos
     {
-        anim.SetBool("Machucado", false);
+        barraDeVida.AtualizarUI(vidaAtual / vidaMaxima);
     }
 
     protected virtual void Morrer()
     {
-        if (morreu) return;
-        morreu = true;
-
-        anim.SetBool("Vivo", false);
-        anim.SetBool("Machucado", false);
-
-        Invoke(nameof(ReiniciarCena), tempoAntesDeReiniciar);
+        string currentSceneName = SceneManager.GetActiveScene().name;
+        SceneManager.LoadScene(currentSceneName);
     }
 
-    private void ReiniciarCena()
+    internal void AplicarDano(object dano)
     {
-        Scene cenaAtual = SceneManager.GetActiveScene();
-        SceneManager.LoadScene(cenaAtual.name);
-    }
-
-    protected void AtualizarVida()
-    {
-        barraDeVida.AtualizarUI(vidaAtual / vidaMaxima);
+        throw new NotImplementedException();
     }
 }
