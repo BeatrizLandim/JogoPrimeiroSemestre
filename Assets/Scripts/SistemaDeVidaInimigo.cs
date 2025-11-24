@@ -20,7 +20,6 @@ public class SistemaDeVidaInimigo : SistemaDeVida
 
         inimigo.AnimacaoDeDano();
         inimigo.EfeitoDePiscar();
-        inimigo.EfeitoDeRecuo();
         AtualizarVida();
     }
 
