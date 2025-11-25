@@ -1,4 +1,4 @@
-using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -6,43 +6,73 @@ public class SistemaDeVida : MonoBehaviour
 {
     public BarraDeVida barraDeVida;
 
-    //Mostra na unity um slider que vai de 0 a 100
-    [Range(0, 100)]
-    public float vidaMaxima = 100f;
-    [Range(0, 100)]
-    public float vidaAtual;
+    [Range(0, 100)] public float vidaMaxima = 100f;
+    [Range(0, 100)] public float vidaAtual;
 
-    // Start is called before the first frame update
-    protected void Start()
+    protected Animator animator;
+    protected bool estaMorto = false;
+
+    protected virtual void Start()
     {
+        animator = GetComponent<Animator>();
+
         vidaAtual = vidaMaxima;
         AtualizarVida();
+
+        // Parâmetro "Vivo" começa ativo
+        if (animator != null)
+            animator.SetBool("Vivo", true);
     }
 
     public virtual void AplicarDano(float dano)
     {
+        if (estaMorto) return;
+
         vidaAtual -= dano;
+
+        if (animator != null)
+            StartCoroutine(AnimacaoMachucado());
+
+        AtualizarVida();
+
         if (vidaAtual <= 0)
         {
             Morrer();
         }
-
-        AtualizarVida();
     }
 
-    private void AtualizarVida() //No futuro isso poderia ser controlado através de eventos
+    private IEnumerator AnimacaoMachucado()
     {
-        barraDeVida.AtualizarUI(vidaAtual / vidaMaxima);
+        if (animator != null)
+        {
+            animator.SetBool("Machucado", true);
+            yield return new WaitForSeconds(0.15f);
+            animator.SetBool("Machucado", false);
+        }
+    }
+
+    protected void AtualizarVida()
+    {
+        if (barraDeVida != null)
+            barraDeVida.AtualizarUI(vidaAtual / vidaMaxima);
     }
 
     protected virtual void Morrer()
     {
-        string currentSceneName = SceneManager.GetActiveScene().name;
-        SceneManager.LoadScene(currentSceneName);
+        if (estaMorto) return;
+        estaMorto = true;
+
+        if (animator != null)
+            animator.SetBool("Vivo", false);
+
+        StartCoroutine(ReiniciarCena());
     }
 
-    internal void AplicarDano(object dano)
+    private IEnumerator ReiniciarCena()
     {
-        throw new NotImplementedException();
+        yield return new WaitForSeconds(5f);
+
+        string cenaAtual = SceneManager.GetActiveScene().name;
+        SceneManager.LoadScene(cenaAtual);
     }
 }

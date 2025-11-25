@@ -1,34 +1,53 @@
-
 public class SistemaDeVidaInimigo : SistemaDeVida
 {
-    Inimigo inimigo;
-    BarraDeVidaInimigo barraDeVidaInimigo;
-    new void Start()
+    private Inimigo inimigo;
+    private BarraDeVidaInimigo barraDeVidaInimigo;
+
+    protected override void Start()
     {
-        base.Start();
+        base.Start(); // chama a inicialização da classe pai
+
         inimigo = GetComponent<Inimigo>();
         barraDeVidaInimigo = GetComponentInChildren<BarraDeVidaInimigo>();
     }
 
     public override void AplicarDano(float dano)
     {
+        if (estaMorto) return;
+
         vidaAtual -= dano;
+
+        // efeitos específicos do inimigo
+        inimigo.AnimacaoDeDano();
+        inimigo.EfeitoDePiscar();
+
+        AtualizarVidaInimigo();
+
         if (vidaAtual <= 0)
         {
             Morrer();
         }
-
-        inimigo.AnimacaoDeDano();
-        inimigo.EfeitoDePiscar();
-        AtualizarVida();
     }
 
-    override protected void Morrer()
+    private void AtualizarVidaInimigo()
     {
+        if (barraDeVidaInimigo != null)
+            barraDeVidaInimigo.AtualizarUI(vidaAtual / vidaMaxima);
+    }
+
+    protected override void Morrer()
+    {
+        if (estaMorto) return;
+        estaMorto = true;
+
+        // animação do inimigo
         inimigo.AnimacaoDeMorte();
-    }
-    void AtualizarVida()
-    {
-        barraDeVidaInimigo.AtualizarUI(vidaAtual / vidaMaxima);
+
+        // impedimos o pai de reiniciar a cena
+        if (animator != null)
+            animator.SetBool("Vivo", false);
+
+        // destruir o inimigo após a animação
+        Destroy(gameObject, 2f);
     }
 }
