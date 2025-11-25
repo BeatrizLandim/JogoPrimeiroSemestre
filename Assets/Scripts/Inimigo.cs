@@ -31,6 +31,10 @@ public class Inimigo : MonoBehaviour
     private Collider2D col;
     private Transform player;
 
+    [Header("Recompensa de XP")]
+    public int xpDrop = 15;
+
+
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -216,17 +220,24 @@ public class Inimigo : MonoBehaviour
     // ----------------------------------------------------------
     public void AnimacaoDeMorte()
     {
-        vivo = false;
+    vivo = false;
 
-        rb.velocity = Vector2.zero;
-        rb.isKinematic = true;
-        col.enabled = false;
+    // ENTREGA DE XP AO JOGADOR ------------------
+    SistemaXP xp = FindObjectOfType<SistemaXP>();
+    if (xp != null)
+        xp.AdicionarXP(xpDrop);
+    // -------------------------------------------
 
-        anim.SetBool("Vivo", false);
-        EfeitoDePiscar();
+    rb.velocity = Vector2.zero;
+    rb.isKinematic = true;
+    col.enabled = false;
 
-        Destroy(gameObject, 3f);
+    anim.SetBool("Vivo", false);
+    EfeitoDePiscar();
+
+    Destroy(gameObject, 3f);
     }
+
 
     // ----------------------------------------------------------
     // SUPORTE VISUAL
