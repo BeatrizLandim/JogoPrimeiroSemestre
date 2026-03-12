@@ -17,6 +17,7 @@ public class Inimigo : MonoBehaviour
     [Header("Ataque")]
     public int danoAtaque = 10;
     public float tempoEntreAtaques = 0.7f;
+    public float tempoStunado = 1;
 
     private bool atacando = false;
     private bool vivo = true;
@@ -53,7 +54,7 @@ public class Inimigo : MonoBehaviour
 
     void Update()
     {
-        if (!vivo || isStunned || player == null)
+        if (!vivo || isStunned || atacando || player == null)
             return;
 
         DetectarPlayer();
@@ -162,9 +163,10 @@ public class Inimigo : MonoBehaviour
     {
         atacando = true;
 
+        float distancia = Vector2.Distance(transform.position, player.position);
         SistemaDeVida vida = player.GetComponent<SistemaDeVida>();
 
-        while (atacando && vivo)
+        while (distancia <= distanciaAtaque && atacando && vivo)
         {
             anim.SetTrigger("Ataque");
 
@@ -173,7 +175,11 @@ public class Inimigo : MonoBehaviour
 
             // mantém o ataque repetido na frequência desejada
             yield return new WaitForSeconds(tempoEntreAtaques);
+
+            distancia = Vector2.Distance(transform.position, player.position);
         }
+
+        atacando = false;
     }
 
     // ----------------------------------------------------------
@@ -191,7 +197,7 @@ public class Inimigo : MonoBehaviour
 
     IEnumerator ResetStun()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(tempoStunado);
         isStunned = false;
         anim.ResetTrigger("Machucado");
     }
@@ -220,22 +226,22 @@ public class Inimigo : MonoBehaviour
     // ----------------------------------------------------------
     public void AnimacaoDeMorte()
     {
-    vivo = false;
+        vivo = false;
 
-    // ENTREGA DE XP AO JOGADOR ------------------
-    SistemaXP xp = FindObjectOfType<SistemaXP>();
-    if (xp != null)
-        xp.AdicionarXP(xpDrop);
-    // -------------------------------------------
+        // ENTREGA DE XP AO JOGADOR ------------------
+        SistemaXP xp = FindObjectOfType<SistemaXP>();
+        if (xp != null)
+            xp.AdicionarXP(xpDrop);
+        // -------------------------------------------
 
-    rb.velocity = Vector2.zero;
-    rb.isKinematic = true;
-    col.enabled = false;
+        rb.velocity = Vector2.zero;
+        rb.isKinematic = true;
+        col.enabled = false;
 
-    anim.SetBool("Vivo", false);
-    EfeitoDePiscar();
+        anim.SetBool("Vivo", false);
+        EfeitoDePiscar();
 
-    Destroy(gameObject, 3f);
+        Destroy(gameObject, 3f);
     }
 
 
