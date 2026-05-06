@@ -28,15 +28,19 @@ public class SistemaDeVida : MonoBehaviour
     {
         if (estaMorto) return;
 
+
         vidaAtual -= dano;
 
         if (animator != null)
             StartCoroutine(AnimacaoMachucado());
+            AudioManager.Instance.Play("dano"); // toca só no início
+
 
         AtualizarVida();
 
         if (vidaAtual <= 0)
         {
+            AudioManager.Instance.Play("dano"); // toca só no início
             Morrer();
         }
     }
@@ -61,6 +65,8 @@ public class SistemaDeVida : MonoBehaviour
     {
         if (estaMorto) return;
         estaMorto = true;
+        AudioManager.Instance.Play("morte");
+
 
         if (animator != null)
             animator.SetBool("Vivo", false);
@@ -70,7 +76,7 @@ public class SistemaDeVida : MonoBehaviour
 
     private IEnumerator ReiniciarCena()
     {
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(15f);
 
         string cenaAtual = SceneManager.GetActiveScene().name;
         SceneManager.LoadScene(cenaAtual);

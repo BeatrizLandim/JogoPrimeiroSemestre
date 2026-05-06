@@ -14,6 +14,7 @@ public class DoubleJump : MonoBehaviour
     private Rigidbody2D rb;
     private int jumpCount;
     public int maxJumps = 2; // 2 = pulo normal + double jump
+        bool estavaParado = true;
 
     void Start()
     {
@@ -27,10 +28,23 @@ public class DoubleJump : MonoBehaviour
         CheckGround();
     }
 
+
+
     void Move()
     {
         float horizontal = Input.GetAxisRaw("Horizontal");
         rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+
+        if (horizontal != 0 && estavaParado)
+        {
+            AudioManager.Instance.Play("andar");
+            estavaParado = false;
+        }
+
+        if (horizontal == 0)
+        {
+            estavaParado = true;
+        }
     }
 
     void Jump()
@@ -39,7 +53,12 @@ public class DoubleJump : MonoBehaviour
         {
             if (jumpCount < maxJumps)
             {
-                rb.velocity = new Vector2(rb.velocity.x, 0f); // evita pulo mais alto se cair
+                if (jumpCount == 0)
+                {
+                    AudioManager.Instance.Play("pular");
+                }
+
+                rb.velocity = new Vector2(rb.velocity.x, 0f);
                 rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
                 jumpCount++;
             }

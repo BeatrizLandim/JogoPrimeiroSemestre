@@ -78,6 +78,8 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Z))
         {
             animator.SetTrigger("Attack");
+
+            AudioManager.Instance.Play("ataque");
         }
     }
 
