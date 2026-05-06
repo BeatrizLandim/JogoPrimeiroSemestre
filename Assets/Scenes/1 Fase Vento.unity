@@ -10572,7 +10572,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1.7
+  m_GravityScale: 1.9
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -10590,7 +10590,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47eb0022c0819b5418e53639635bc1d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 6
+  moveSpeed: 8
   jumpForce: 8
   crouchSize: {x: 0.4382976, y: 0.1496243}
   crouchOffset: {x: -0.00350824, y: -0.1048099}
@@ -10669,7 +10669,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 8
-  jumpForce: 10
+  jumpForce: 12
   groundCheck: {fileID: 1470992096}
   checkRadius: 0.2
   groundLayer:
