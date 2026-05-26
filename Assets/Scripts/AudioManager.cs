@@ -42,8 +42,9 @@ public class AudioManager : MonoBehaviour
         audio.source.Play();
     }
 
-    void Start()
+        void Start()
     {
-        Play("musicatema");
-    }
+        Play("Menu");
+    }   
+
 }
