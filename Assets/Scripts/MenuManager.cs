@@ -20,14 +20,12 @@ public class MenuManager : MonoBehaviour
 
     public void AbrirCreditos()
     {
-        AudioManager.Instance.Play("Menu");
         MenuPrincipal.SetActive(false);
         MenuCreditos.SetActive(true);
     }
 
     public void FecharCreditos()
     {
-        AudioManager.Instance.Play("Menu");
         MenuPrincipal.SetActive(true);
         MenuCreditos.SetActive(false);
     }
