@@ -3,17 +3,16 @@ using UnityEngine;
 public class DoubleJump : MonoBehaviour
 {
     [Header("Movimentação")]
-    public float speed = 5f;
     public float jumpForce = 10f;
 
     [Header("Ground Check")]
     public Transform groundCheck;
-    public float checkRadius = 0.2f;
+    public float checkRadius = 0.2f; 
     public LayerMask groundLayer;
 
     private Rigidbody2D rb;
     private int jumpCount;
-    public int maxJumps = 2; // 2 = pulo normal + double jump
+    public int maxJumps = 2; //quantidade de pulos
         bool estavaParado = true;
 
     void Start()
@@ -33,15 +32,14 @@ public class DoubleJump : MonoBehaviour
     void Move()
     {
         float horizontal = Input.GetAxisRaw("Horizontal");
-        rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
 
-        if (horizontal != 0 && estavaParado)
+            if (horizontal != 0 && estavaParado)
         {
             AudioManager.Instance.Play("andar");
             estavaParado = false;
         }
 
-        if (horizontal == 0)
+            if (horizontal == 0)
         {
             estavaParado = true;
         }
